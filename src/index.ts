@@ -8,8 +8,9 @@ import { Facade} from "./facade.js";
    * provided by the Facade, rather than invoking the methods of the libraries
    * directly.
    */
-  function clientCode(facade: Facade) {
+  export function clientCode(facade: Facade) {
     console.log(facade.powAndAdd(3, 5, [1, 2, 3]));
+    return facade.powAndAdd(3, 5, [1, 2, 3]);
   }
   
   clientCode(new Facade(new ProductLibrary(), new AdditionLibrary()));

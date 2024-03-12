@@ -1,5 +1,5 @@
 {
-  "name": "p07-dsikea",
+  "name": "p08",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node dist/furniture.js\"",
     "start": "tsc-watch --onSuccess \"node dist/index.js\"",
-    "test": "mocha ./tests/*.spec.ts",
+    "test": "mocha",
     "coverage": "c8 npm test && c8 report --reporter=lcov",
     "doc": "typedoc --out docs src/**/*.ts; touch docs/.nojekyll"
   },
