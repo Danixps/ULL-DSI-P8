@@ -37,6 +37,7 @@
     "typescript": "^5.4.2"
   },
   "dependencies": {
+    "c8": "^9.1.0",
     "inquirer": "^8.2.6",
     "lowdb": "^1.0.0"
   }
