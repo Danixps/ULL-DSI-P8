@@ -34,7 +34,8 @@
     "ts-node": "^10.9.2",
     "tsc-watch": "^6.0.4",
     "typedoc": "^0.25.8",
-    "typescript": "^5.4.2"
+    "typescript": "^5.4.2",
+    "ci": "^2.3.0"
   },
   "dependencies": {
     "c8": "^9.1.0",
